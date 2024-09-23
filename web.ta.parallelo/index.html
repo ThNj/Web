@@ -1,47 +1,130 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Parallelo</title>
 </head>
 <body>
     <header>
         <nav>
             <div id="logo">
-                <a href="index.html">
-                    <img src="img/logo-white.png" alt="Logo Parallelo">
-                </a>
+                <a href="index.html"><img src="assets/logo-white.png" alt=""></a>
             </div>
-            <div id="menu_principal">
+            
+            <div id="MainMenu">
                 <ul>
-                    <li>
-                        <span>01.</span>
-                        <a href="index.html">HOME</a>
+                    <li class="select">
+                        <span class="montserrat">01.</span>
+                        <a href="index.html" class="montserrat">HOME</a>
                     </li>
                     <li>
-                        <span>02.</span>
-                        <a href="trabalhos.html">TRABALHOS</a>
+                        <span class="montserrat">02.</span>
+                        <a href="trabalhos.html" class="montserrat">TRABALHOS</a>
                     </li>
                     <li>
-                        <span>03.</span>
-                        <a href="escaneamento.html">ESCANEAMENTO</a>
+                        <span class="montserrat">03.</span>
+                        <a href="Scaneamentos.html" class="montserrat">SCANEAMENTOS</a>
                     </li>
                     <li>
-                        <span>04.</span>
-                        <a href="sobre.html">SOBRE</a>
+                        <span class="montserrat">04.</span>
+                        <a href="Sobre.html" class="montserrat">SOBRE</a>
                     </li>
                     <li>
-                        <span>05.</span>
-                        <a href="lancamentos.html">LANÇAMENTOS</a>
+                        <span class="montserrat">05.</span>
+                        <a href="Lançamentos.html" class="montserrat">LANÇAMENTOS</a>
                     </li>
                     <li>
-                        <span>06.</span>
-                        <a href="contatos.html">CONTATOS</a>
+                        <span class="montserrat">06.</span>
+                        <a href="Contatos.html" class="montserrat">CONTATO</a>
                     </li>
                 </ul>
             </div>
         </nav>
+        <div class="yellow-bg">
+            <Span class="montserrat">Projeto</Span>
+            <h1 class="montserrat">MLG HELIPONTO</h1>
+            <div class="y-bgButtons">
+                <button>
+                    <img src="./assets/slides/arrow-left.png" alt="">
+                </button>            
+                <button>
+                    <img src="./assets/slides/arrow-right.png" alt="">           
+                </button>
+            </div>
+        </div>     
     </header>
+    <div class="regua"></div>
+    <section id="OurProjects">
+        <ul class="icons">
+            <li>
+                <img src="./assets/PenAndRuler.png" alt="">
+            </li>
+            <li>
+                <img src="./assets/regua-triangular.png" alt="">
+            </li>
+            <li>
+                <img src="./assets/estojo.png" alt="">
+            </li>
+        </ul>
+        <div class="citation">
+            <span class="citationspeech">
+                "A arquitetura é a arte que determina a identidade do nosso tempo e melhora a vida das pessoas." <i>Santiago Calatrava</i>
+            </span>
+        </div>
+        <div class="OurProjectsTitle">
+            <h4>NOSSOS</h4>
+            <h1>PROJETOS</h1>
+            <span class="TitleSpan">
+                Concebemos ideias e concretizamos sonhos.
+            </span>  
+        </div>
+        <div class="ProjectsTable">
+            <div class="project-1 project">
+                <a href=""></a>
+                <div class="detail">
+                    <span>01</span>
+                    <h6>Heliponto + coleção de carros</h6>
+                    <p>Projeto</p>
+                </div>      
+            </div>
+            <div class="project-2 project">
+                <a href=""></a>         
+                <div class="detail">
+                    <span>02</span>
+                    <h6>Lean production</h6>
+                    <p>Levantamento e projeto de linha de produção enxuta.</p>
+                </div>
+             </div>
+            <div class="project-3 project">
+                <a href=""></a>  
+                <div class="detail">
+                    <span>03</span>
+                    <h6>Level UP</h6>
+                    <p>Levantamento e projeto de área de lazer.</p>
+                </div>          
+            </div>
+            <div class="project-4 project">
+                <a href=""></a>         
+                <div class="detail">
+                    <span>04</span>
+                    <h6>Galpões logísticos</h6>
+                    <p>Criação de vídeo 3d demonstrativo.</p>
+                </div>               
+            </div>
+            <div class="botao">
+                <a href="" class="AllProjectsButtom">
+                    VER TODOS OS PROJETOS
+                </a>
+            </div>
+        </div>
+              
+    </section>
 </body>
 </html>
